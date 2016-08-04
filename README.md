@@ -3,6 +3,13 @@ A common project made by Better Code developers.
 
 ## ES7: Async and Await
 
+Experimental new features
+```ArrayBuffer
+ArrayBuffer.transfer
+  var foo = new ArrayBuffer(10);
+  var pip = ArrayBuffer.transfer(foo, 12);
+   
+
 A great example of async/await:
 
 ```js
